@@ -6,6 +6,9 @@ window.addEventListener('load', function() {
    // Handle the successful return from the API call
    function onSuccess(data) {
        console.log(data);
+      let name = data.firstName + ' ' + data.lastName;
+      window.localStorage.setItem('user-name', name);
+      window.location.href = 'views/profile.html';
    }
 
    // Handle an error response from the API call
