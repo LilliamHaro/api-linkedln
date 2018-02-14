@@ -1,8 +1,7 @@
 window.addEventListener('load', function() {
   // Setup an event listener to make an API call once auth is complete
-   function onLinkedInLoad() {
+
        IN.Event.on(IN, "auth", getProfileData);
-   }
 
    // Handle the successful return from the API call
    function onSuccess(data) {
