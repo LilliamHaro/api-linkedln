@@ -31,6 +31,14 @@
 .color-white {
   color: white;
 }
+a {
+  text-decoration: none;
+}
+.user-box {
+  background-color: #2E9AFE;
+  border-radius: 5px;
+  padding: 20px;
+}
 .btn {
   border: none;
   border-radius: 5px;
@@ -38,8 +46,7 @@
   color: white;
   font-weight: bold;
   font-size: 18px;
-  margin: 20px;
-  float: right;
+  margin-top: 20px;
 }
 .border {
   border: 2px solid white;
